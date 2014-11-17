@@ -24,7 +24,7 @@ try:
     basename = path.basename(sys.argv[1])
     filename, extension = tuple(path.splitext(basename))
     image = VImage.VImage(fullname)
-    basefolder = ''
+    basefolder = '.'
 
     try:
         basefolder = sys.argv[2]
